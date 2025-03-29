@@ -77,7 +77,7 @@ quaraumdes =
      \transpose c fis { $note } $note 
    #}))
 %
-quarpejun =
+quarjusjun =
 #(define-music-function
   (note)
   (ly:music?)
@@ -357,6 +357,7 @@ MaiorPauta =
   (musica) (ly:music?)
 #{
 \new Staff = "MaiorPauta" {
+\accidentalStyle neo-modern
 \transpose c c' { 
 \removeWithTag #'tablatura { $musica }
 } % fim transpose

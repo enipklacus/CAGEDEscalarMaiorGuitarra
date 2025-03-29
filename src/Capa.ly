@@ -9,11 +9,11 @@
      \override Staff.Clef.full-size-change = ##t
      \clef "bass"   s1  } }}
 \abs-vspace #20
-{\magnify #2.5 \bold "CAGED: Escala Maior"}
+{\magnify #2.5 \bold "Escala Maior"}
 \abs-vspace #5 \fill-line {
 \center-column { \wordwrap-lines {
 \italic {
-Um caderno de exercícios para estudar o sistema CAGED, com diversos intervalos e execuções.
+Um caderno de exercícios para estudar a escala maior, com diversos intervalos e execuções.
 } % itálico
 } % wordwrap 
 \abs-vspace #5

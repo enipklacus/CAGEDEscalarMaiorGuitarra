@@ -1,6 +1,6 @@
 \markup { % contra
 \center-column { 
-\vspace #10
+\vspace #5
 %\abs-vspace #5  
 {\score { \relative c' {
      \override Staff.BarLine.stencil = ##f
@@ -15,8 +15,8 @@
 %%Primeira coluna
 \center-column {
 \abs-vspace #5  
-\box { \fill-line {
-\score {
+\fill-line {
+\box \pad-markup #2 { \score {
 \relative c' {d8 e f g e4 c8 d~ d1}} } } 
 \abs-vspace #15  
 \wordwrap { \override #'(line-width . 40)
